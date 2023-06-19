@@ -1,0 +1,178 @@
+/*GLOBAL*/
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #837E9F;
+    font-family: Merriweather Sans;
+}
+
+/*BODY*/
+body {
+    margin: 20px;
+    background-color: #22212C;
+}
+
+.container { /*container principal*/
+    display: flex;
+}
+
+.box1 { /*caixa da esquerda*/
+    width: 25%;
+    margin-right: 5%;
+}
+
+.box2 { /*caixa da direita*/
+    width: 70%;
+}
+
+/*CARDS*/
+.card { /*estilizando os cards*/
+    background-color: #302F3D;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.card > div { /*flex e margin em todas as escritas em todos os cards*/
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.card div img { /*estilizando todos os icones*/
+    margin-right: 25px;
+    display: flex;
+}  
+
+.card h4 { /*estilizando todos os h4*/
+    margin-bottom: 20px;
+}
+
+/*CARDS BOX1*/
+.box1 .card { /*colocando um padding apenas nos card da box1*/
+    padding: 30px;
+}
+
+/*Card Perfil*/
+.icon img { /*estilizando a foto de perfil*/
+    border-radius: 100%;
+    border: 3px solid lime;
+    width: 120px;
+    display: flex;
+    margin: auto;
+}
+
+.icon { /*centralizando a escrita do card de perfil*/
+    text-align: center;
+}
+
+.icon h3 { /*margin-top no nome de usuario*/
+    margin-top: 20px;
+    
+}
+
+.icon p { /*margin-top descrição do perfil*/
+    margin-top: 5px;
+}
+
+/*Card redes sociais*/
+.box1 .card > div { /*colocando uma margin apenas nas divs da box1 (redes sociais)*/
+    display: flex;
+    margin: 15px 0;
+}
+
+/*Card tecnologias*/
+.tecnologias { /*estilizando as escritas do card de tecnologias*/
+    font-size: 12px;
+    font-weight: bold;
+
+    color:#22212C;
+    background-color: #CB92B1;
+    text-align: center;
+    
+    width: 25%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding: 5px;
+
+
+    border-radius: 20px;
+
+    display: inline-block;
+    
+}
+
+/*CARDS BOX2*/
+/*Meus Projetos*/
+
+/*Titulo*/
+.titulo { /*formatando o titulo dos projetos e o veja mais*/
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Cards Projetos*/
+.projetos-corpo { /*flex e space dos projetos*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.projetos-corpo .card { /*tamanho dos cards dos projetos*/
+    width: 45.7%;
+}
+
+.paragrafo { /*margin-bottom em todos os paragrafos dos projetos*/
+    margin-bottom: 30px;
+}
+
+.icon-yellow { /*bolinha amarela do js*/
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 12px; 
+    width: 12px;   
+    border-radius: 100%;
+    border: solid #837E9F 3px;
+    background-color: yellow;
+}
+
+.card .rodape-card { /*rodape dos projetos*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.card div div { /*div dos itens do rodape*/
+    display: flex;
+}
+
+.card .icon-project { /*icones do rodape*/
+    margin-right: 3px;
+    margin-left: 8px;
+}
+
+/*Posts*/
+
+/*Titulo*/
+
+/*Cards Posts*/
+.paragrafo-post div { /*div de toda parte escrita das postagens*/
+    display: block;
+    margin-left: 10px;
+}
+
+.paragrafo-post img { /*imagem post*/ 
+    border-radius: 10px;
+}
+
+.paragrafo-post h4 { /*titulo da postagem*/
+    margin-bottom: 5px;
+}
+
+.paragrafo-post { /*flex em todo o card e no segundo p da div*/
+    display: flex;
+}
+
+.paragrafo-post + p { /*paragrafo dos posts*/
+    margin: 20px 0 10px;
+}
