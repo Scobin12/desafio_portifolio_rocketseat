@@ -1,4 +1,4 @@
-# desafio_portifolio_rocketseat
+# Desafio "Portifolio" rocketseat
 
 Neste desafio criei uma página desktop de potifólio, usando meu nome, minha imagem e minhas redes sociais.<br>
 Já a parte dos projetos, postagens e tecnologias são originais do desafio da rockeatseat. 
